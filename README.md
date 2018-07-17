@@ -6,7 +6,7 @@ npm install @barebones/ajax --save
 ```
 
 ```
-  import ajax from '@barebones/ajax';
+import ajax from '@barebones/ajax';
 
 // Ajax Call
 ajax( {

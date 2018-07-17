@@ -1,6 +1,6 @@
 {
   "name": "@barebones/ajax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple Ajax call using fetch(), falling back to XmlHttpRequest for IE10+ support",
   "author": {
     "name": "Tim Wright",
