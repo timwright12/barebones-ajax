@@ -1,4 +1,4 @@
-# @Barebones/Ajax
+# @barebones/ajax
 A simple Ajax call using fetch(), falling back to XmlHttpRequest for IE10+ support
 
 ```
