@@ -3,11 +3,10 @@ name: Move new issues into Triage
 on:
   issues:
     types: [labeled]
-
-permissions: write-all
   
 jobs:
   automate-project-columns:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Create or Update Project Card
