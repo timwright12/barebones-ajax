@@ -15,4 +15,4 @@ jobs:
         with:
           project-location: timwright12
           project-number: 2
-          column-name: Backlog
+          column-name: Done
