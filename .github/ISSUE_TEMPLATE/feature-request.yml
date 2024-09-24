@@ -1,0 +1,19 @@
+name: Mobile App Change Request Form
+description: Misc.
+title: "Change Request: [name of change]"
+labels: [ "Epic", "Leads team" ]
+projects: ["timwright12/2"]
+assignees: [ timwright12 ]
+body:
+- type: input
+  id: fullname
+  attributes:
+    label: 1.) Requestor's Name
+    description: Add your full name here
+    placeholder: Example Name
+- type: input
+  id: email
+  attributes:
+    label: 2.) Requestor's Email
+    description: Your email address so we can contact you with any follow-up questions.
+    placeholder: 'human@example.gov'
