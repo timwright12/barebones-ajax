@@ -4,8 +4,7 @@ on:
   issues:
     types: [labeled]
 
-permissions:
-  actions: write
+permissions: write-all
   
 jobs:
   automate-project-columns:
