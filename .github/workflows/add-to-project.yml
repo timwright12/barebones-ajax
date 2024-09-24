@@ -15,4 +15,4 @@ jobs:
         with:
           project: Mobile SOS Board
           column: Backlog
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.PROJECTS_PAT }}
