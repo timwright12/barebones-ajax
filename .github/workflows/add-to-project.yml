@@ -14,5 +14,5 @@ jobs:
         uses: peter-evans/create-or-update-project-card@v3
         with:
           project-location: timwright12
-          project-name: Mobile SOS Board
+          project-number: 2
           column-name: Backlog
