@@ -4,6 +4,9 @@ on:
   issues:
     types: [labeled]
 
+permissions:
+  actions: write
+  
 jobs:
   automate-project-columns:
     if: contains(github.event.issue.labels.*.name, 'Leads team')
