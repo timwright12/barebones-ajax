@@ -8,11 +8,12 @@ permissions: write-all
   
 jobs:
   automate-project-columns:
-    if: contains(github.event.issue.labels.*.name, 'Leads team')
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.3
+      - name: Create or Update Project Card
+        if: contains(github.event.issue.labels.*.name, 'Leads team')
+        uses: peter-evans/create-or-update-project-card@v3
         with:
-          project: Mobile SOS Board
-          column: Backlog
-          repo-token: ${{ secrets.PROJECTS_PAT }}
+          project-name: Mobile SOS Board
+          column-name: Backlog
+          issue-number: 1
